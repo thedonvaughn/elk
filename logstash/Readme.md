@@ -9,4 +9,4 @@
 
 Assuming your logstash server can be reached at http://localhost:9200 
 
--[user@localhost]$ curl -XPUT 'http://localhost:9200/_template/filebeat?pretty' -d@/path/to/filebeat.geopoint.template.json
+- [user@localhost]$ curl -XPUT 'http://localhost:9200/_template/filebeat?pretty' -d@/path/to/filebeat.geopoint.template.json
